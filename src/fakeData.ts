@@ -1,62 +1,77 @@
 export const users = [
   {
-    id: 1,
-    name: 'aaa',
-    email: 'aaa@gmail.com',
+    id: '1',
+    name: 'suho',
+    email: 'suho@gmail.com',
   },
   {
-    id: 2,
-    name: 'bbb',
-    email: 'bbb@gmail.com',
+    id: '2',
+    name: 'yong',
+    email: 'yong@gmail.com',
   },
   {
-    id: 3,
-    name: 'ccc',
-    email: 'ccc@gmail.com',
+    id: '3',
+    name: 'won',
+    email: 'won@gmail.com',
+  },
+  {
+    id: '4',
+    name: 'ha',
+    email: 'ha@gmail.com',
   },
 ];
 
 export const posts = [
   {
-    id: 11,
-    title: 'AAA',
-    author: 1,
+    id: '101',
+    title: 'GraphQL Intro',
+    author: '1',
   },
   {
-    id: 22,
-    title: 'BBB',
-    author: 1,
+    id: '102',
+    title: 'About Apollo Server',
+    author: '1',
   },
   {
-    id: 33,
-    title: 'CCC',
-    author: 2,
+    id: '103',
+    title: 'DEFINING A SCHEMA',
+    author: '2',
+  },
+  {
+    id: '104',
+    title: 'FETCHING DATA',
+    author: '3',
+  },
+  {
+    id: '105',
+    title: 'File uploads',
+    author: '4',
   },
 ];
 
-export const reviews = [
+export const comments = [
   {
-    id: 111,
+    id: '111',
     text: 'good',
-    author: 1,
-    post: 11,
+    author: '2',
+    post: '101',
   },
   {
-    id: 222,
+    id: '222',
     text: 'great',
-    author: 1,
-    post: 22,
+    author: '3',
+    post: '101',
   },
   {
-    id: 333,
+    id: '333',
     text: 'excellent',
-    author: 2,
-    post: 22,
+    author: '1',
+    post: '102',
   },
   {
-    id: 444,
+    id: '444',
     text: 'bad',
-    author: 3,
-    post: 33,
+    author: '2',
+    post: '103',
   },
 ];
